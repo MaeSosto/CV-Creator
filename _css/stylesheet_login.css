@@ -1,0 +1,142 @@
+body,h1 {
+	font-family: "Raleway", sans-serif;
+}
+body, html {
+	height:100%;
+	margin:0;
+}
+
+
+a{color:#616161!important;}
+
+
+.container-login {
+    background-image: url('../_pics/login.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+	color: white;
+    
+}
+
+.container-login h1{
+	font-size:64px!important;
+	position:relative;
+	animation:animatetop 1.0s}
+	@keyframes animatetop{from{top:-300px;opacity:0} to{top:0;opacity:1};
+}
+
+    
+.titolo-grande {
+	position:fixed;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+
+
+.box-login{
+	width: 40%;
+	position:fixed;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);	
+	background-color:#fff!important;
+}
+
+
+.barra-nera-login {
+	width:auto;
+	min-width:100%;
+	text-align:left;
+	overflow:hidden;
+	display:inline-block;
+	color: #fff!important;
+    background-color: #000!important;
+    opacity: 0.60;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+	float: left;
+	clear:both;
+}
+
+.barra-nera-login h3{
+	padding: 0px 10px;
+}
+
+.form-login {
+	width:100%;
+	min-width:100%;
+	clear:both;
+	display:inline-block;
+	height:auto;
+	padding: 0px 10px;
+	font-family: "Raleway"
+}
+
+.input-login{
+	color: black;
+	float:left;
+	padding:8px 8px;
+	width:auto;
+	min-height:100%;
+}
+
+.pulsanti-login{
+	clear:both;
+	float: left;
+	width:100%;
+	height:auto;	
+}
+
+#bottone-grigio{
+	border:none;
+	display:inline-block;
+	outline:0;
+	padding:8px 16px;
+	vertical-align:middle;
+	overflow:hidden;
+	text-decoration:none;
+	cursor:pointer;
+	white-space:normal;
+	text-align:left;
+	color:#fff!important;
+	background-color:#616161!important;
+	width:auto;
+}
+
+#bottone-grigio:hover{
+	color:#000!important;
+	background-color:#ccc!important;
+}
+
+
+
+.copyright-login{
+	position:fixed;
+	left:0;
+	bottom:0;
+	padding:12px 24px!important;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*FONT RAILWAY*/
+/* latin-ext */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+

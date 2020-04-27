@@ -1,0 +1,235 @@
+body, h1, p {
+    font-family: "Raleway", sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+body, html {
+    height: auto;
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    font-size: 15px;
+    line-height: 1.5;
+    display: block;
+    margin: 0px;
+}
+
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+i {
+    margin-right: 16px !important;
+    font-size: 18px !important;
+}
+
+.container {
+    max-width: 60%;
+    margin: auto !important;
+    margin-top: 16px !important;
+    padding: 0 8px;
+    box-sizing: inherit;
+    margin: auto;
+    height: auto;
+}
+
+.sinistra {
+    color: #757575 !important;
+    float: left;
+    width: 100%;
+    width: 33%;
+    padding: 0 8px;
+    margin-bottom: 16px;
+}
+
+.foto {
+    position: relative;
+    display: block;
+}
+
+.sinistrainterno {
+    background-color: #fff !important;
+    color: #757575 !important;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+    height: auto;
+}
+
+.nome {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: "";
+    display: table;
+    clear: both;
+    padding: 0.01em 16px;
+    color: white !important;
+}
+
+.sinistragiu {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 0.01em 16px;
+    width: auto;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.destra {
+    float: left;
+    width: 100%;
+    width: 59%;
+    padding: 0 8px;
+}
+
+.eventi {
+    padding: 0.01em 16px;
+    content: "";
+    display: table;
+    clear: both;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+    color: #000 !important;
+    background-color: #fff !important;
+    margin-bottom: 16px !important;
+    width: auto;
+}
+
+
+.copyright {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 12px 24px !important;
+}
+
+.titolo {
+    font-size: 36px !important;
+    color: #757575 !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+
+.titolini {
+    font-size: 18px !important;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.lingue {
+    color: #000 !important;
+    background-color: #f1f1f1 !important;
+    border-radius: 16px;
+    font-size: 12px !important;
+    width: 100%;
+}
+
+.barra {
+    content: "";
+    display: table;
+    clear: both;
+    padding: 0.01em 16px;
+    text-align: center !important;
+    display: inline-block;
+    width: auto;
+    border-radius: 16px;
+    color: #fff !important;
+    background-color: #757575
+}
+
+@media screen and (max-width:1115px) {
+
+    .sinistra {
+        float: none !important;
+        width: 30%;
+        clear: both;
+    }
+
+    .destra {
+        float: none !important;
+        width: 50%;
+        clear: both;
+    }
+
+    .container {
+        float: none !important;
+        width: 100%;
+        clear: both;
+    }
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+/*FONT RAILWAY*/
+/* latin-ext */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/yQiAaD56cjx1AooMTSghGfY6323mHUZFJMgTvxaG2iE.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v11/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+
+
+@media screen and (max-width:1115px) {
+
+    .container {
+        float: none !important;
+        width: 100%;
+        clear: both;
+    }
+
+
+    .sinistra {
+        float: none !important;
+        width: auto;
+        clear: both;
+    }
+
+    .destra {
+        float: none !important;
+        width: auto;
+        clear: both;
+    }
+
+    .copyright {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        padding: 12px 24px !important;
+    }
+}
